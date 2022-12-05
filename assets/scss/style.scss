@@ -5,4 +5,20 @@
 
 body {
   background-color: $c-white;
+  min-width: 360px;
+}
+
+a {
+  color: $c-gray-medium;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  @include device( phone ){
+    width: 100%;
+    margin: 0;
+  }
+
 }
