@@ -88,9 +88,23 @@ table {
   font-weight: 700;
 }
 
+.hero_content .hero_content_title {
+  font-weight: 700;
+}
+.hero_content .hero_content_text {
+  font-weight: 400;
+}
+
 body {
   background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
   min-width: 360px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
 }
 
 a {

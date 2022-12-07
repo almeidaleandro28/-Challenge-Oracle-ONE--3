@@ -1,0 +1,49 @@
+.header{
+  background-color: $c-gray-light;
+	height: max-content;
+	padding: 1rem 0;
+  .header_container{
+    display: flex;
+  	flex-direction: row;
+  	justify-content: space-between;
+		@include device( phone ){
+			
+		}
+  }
+}
+
+.header_branch{
+	display: flex;
+	flex-direction: row;
+	@include device( phone ){
+		
+	}
+}
+
+.header_name {}
+
+.header_nav {
+	@include device( phone ){
+	
+	}
+	
+}
+
+.header_nav_items {
+	display: flex;
+	flex-direction: row;
+	@include device( phone ) {
+		display: none;
+	}
+	.header_nav_item {
+		padding-left: 0.5rem;
+		@include device( phone ){
+			
+		}
+	}
+	.header_nav_link {}
+}
+
+.header_contact {
+	font-weight: map-get($f-weight, "bold" );
+}

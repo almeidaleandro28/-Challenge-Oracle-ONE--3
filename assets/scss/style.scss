@@ -6,8 +6,19 @@
 
 body {
   background-color: $c-white;
+	font-family: $f-roleway;
   min-width: 360px;
 }
+
+h1,
+h2,
+h3 {
+	font-family: $f-roboto;
+}
+
+h1 {}
+h2 {}
+h3 {}
 
 a {
   color: $c-gray-medium;

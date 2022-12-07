@@ -1,0 +1,21 @@
+.hero {
+  .hero_container {}
+}
+
+.hero_header {
+  .hero_header_img {}
+}
+
+.hero_content {
+  .hero_content_title {
+		font-weight: map-get($f-weight, "bold");
+		
+	}
+  .hero_content_text {
+		font-weight: map-get($f-weight , "normal" );
+	}
+}
+
+.hero_footer {
+  .hero_footer_link {}
+}
