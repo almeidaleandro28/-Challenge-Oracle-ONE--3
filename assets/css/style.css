@@ -85,6 +85,11 @@ table {
     display: none;
   }
 }
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .header_nav_items {
+    display: none;
+  }
+}
 .header_nav_items .header_nav_item {
   padding-left: 0.5rem;
 }
