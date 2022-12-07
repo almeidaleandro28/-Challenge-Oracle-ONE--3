@@ -20,7 +20,9 @@
 	}
 }
 
-.header_name {}
+.header_branch_name {
+	font-size: map-get($f-size, "normal");
+}
 
 .header_nav {
 	@include device( phone ){
@@ -46,4 +48,5 @@
 
 .header_contact {
 	font-weight: map-get($f-weight, "bold" );
+	font-size: map-get($f-size, 'normal');
 }

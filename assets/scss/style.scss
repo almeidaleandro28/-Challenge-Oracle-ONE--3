@@ -16,9 +16,23 @@ h3 {
 	font-family: $f-roboto;
 }
 
-h1 {}
-h2 {}
-h3 {}
+h1 {
+  font-size: map-get($f-size, "big");
+  @include device( phone ){
+  font-size: map-get($f-size, "medium");
+  }
+}
+
+h2 {
+  font-size: map-get($f-size, "medium");
+  @include device( phone ){
+  font-size: map-get($f-size, "small");
+  }
+}
+
+h3 {
+  font-size: map-get($f-size , "small" );
+}
 
 a {
   color: $c-gray-medium;
