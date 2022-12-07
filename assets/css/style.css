@@ -98,6 +98,26 @@ table {
   font-size: 1rem;
 }
 
+.hero_header .hero_header_img {
+  width: 368px;
+  height: 368px;
+  border-radius: 368px;
+}
+@media screen and (max-width: 576px) {
+  .hero_header .hero_header_img {
+    width: 96px;
+    height: 98px;
+    border-radius: 96px;
+  }
+}
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .hero_header .hero_header_img {
+    width: 146px;
+    height: 146px;
+    border-radius: 96px;
+  }
+}
+
 .hero_content .hero_content_title {
   font-weight: 700;
 }
@@ -142,6 +162,11 @@ h3 {
 a {
   color: #464646;
   text-decoration: none;
+}
+
+img {
+  height: auto;
+  width: 100%;
 }
 
 .container {

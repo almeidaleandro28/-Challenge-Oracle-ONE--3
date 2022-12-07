@@ -3,7 +3,21 @@
 }
 
 .hero_header {
-  .hero_header_img {}
+  .hero_header_img {
+    width: 368px;
+    height: 368px;
+    border-radius: 368px;
+    @include device( phone ){
+      width: 96px;
+      height: 98px;
+      border-radius: 96px;
+    }
+    @include device( tablet ){
+      width: 146px;
+      height: 146px;
+      border-radius: 96px;
+    }
+  }
 }
 
 .hero_content {
