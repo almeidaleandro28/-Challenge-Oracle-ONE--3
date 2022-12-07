@@ -37,6 +37,9 @@
 	@include device( phone ) {
 		display: none;
 	}
+	@include device( tablet ){
+		display: none;
+	}
 	.header_nav_item {
 		padding-left: 0.5rem;
 		@include device( phone ){
