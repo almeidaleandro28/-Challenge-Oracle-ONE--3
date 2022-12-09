@@ -141,6 +141,18 @@ table {
   font-weight: 500;
 }
 
+.about {
+  background-color: #EAF2FD;
+}
+.about .about_title {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.about .about_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Raleway", sans-serif;
