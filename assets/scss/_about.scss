@@ -1,0 +1,12 @@
+.about{
+  background-color: $c-blue-light;
+  .about_container {}
+  .about_title {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .about_text {
+    font-family: $f-roboto;
+    font-weight: map-get($f-weight , "normal");
+  }
+}
