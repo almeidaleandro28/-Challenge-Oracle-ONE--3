@@ -3,6 +3,7 @@
 }
 
 .hero_header {
+  padding-bottom: 0.5rem;
   .hero_header_img {
     width: 368px;
     height: 368px;
@@ -21,15 +22,22 @@
 }
 
 .hero_content {
+  padding-bottom: 1rem;
   .hero_content_title {
 		font-weight: map-get($f-weight, "bold");
 		
 	}
   .hero_content_text {
 		font-weight: map-get($f-weight , "normal" );
+    padding-top: 0.5rem;
 	}
 }
 
 .hero_footer {
-  .hero_footer_link {}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .hero_footer_link {
+    font-weight: map-get($f-weight, "medium" );
+  }
 }

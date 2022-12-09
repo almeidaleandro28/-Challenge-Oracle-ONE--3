@@ -48,8 +48,8 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   @include device( phone ){
-    width: 100%;
-    margin: 0;
+    width: 95%;
+    
   }
 
 }

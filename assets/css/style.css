@@ -98,6 +98,9 @@ table {
   font-size: 1rem;
 }
 
+.hero_header {
+  padding-bottom: 0.5rem;
+}
 .hero_header .hero_header_img {
   width: 368px;
   height: 368px;
@@ -118,11 +121,24 @@ table {
   }
 }
 
+.hero_content {
+  padding-bottom: 1rem;
+}
 .hero_content .hero_content_title {
   font-weight: 700;
 }
 .hero_content .hero_content_text {
   font-weight: 400;
+  padding-top: 0.5rem;
+}
+
+.hero_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hero_footer .hero_footer_link {
+  font-weight: 500;
 }
 
 body {
@@ -175,8 +191,7 @@ img {
 }
 @media screen and (max-width: 576px) {
   .container {
-    width: 100%;
-    margin: 0;
+    width: 95%;
   }
 }
 
