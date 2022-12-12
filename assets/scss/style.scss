@@ -4,6 +4,7 @@
 @import "header";
 @import "hero";
 @import "about";
+@import "skill";
 
 body {
   background-color: $c-white;
@@ -38,6 +39,7 @@ h3 {
 a {
   color: $c-gray-medium;
   text-decoration: none;
+  font-family: $f-roboto
 }
 
 img {

@@ -1,0 +1,44 @@
+.skill {
+  background-color: $c-gray-medium;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  .skill_container {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .skill_title {
+
+  }
+}
+
+.skill_cards {
+  display: flex;
+  flex-direction: row;
+  
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  @include device( phone ){
+    flex-direction: column;
+    justify-content: center;
+  }
+  .skill_card{
+    background-color: $c-white;
+    flex: 1 ;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    text-align: center;
+    border: 1px solid black;
+  }
+}
+
+
+
+.skill_card_header {
+  .skill_card_header_img{}
+}
+
+.skill_card_footer{
+  .skill_card_footer_title {}
+}

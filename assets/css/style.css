@@ -153,6 +153,37 @@ table {
   font-weight: 400;
 }
 
+.skill {
+  background-color: #F5F5F5;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.skill .skill_container {
+  display: flex;
+  flex-direction: column;
+}
+.skill_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+@media screen and (max-width: 576px) {
+  .skill_cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.skill_cards .skill_card {
+  background-color: #ffffff;
+  flex: 1;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  border: 1px solid black;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Raleway", sans-serif;
@@ -188,8 +219,9 @@ h3 {
 }
 
 a {
-  color: #464646;
+  color: #F5F5F5;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
 
 img {
