@@ -184,6 +184,37 @@ table {
   border: 1px solid black;
 }
 
+.hobbie {
+  background-color: #F5F5F5;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.hobbie .hobbie_container {
+  display: flex;
+  flex-direction: column;
+}
+.hobbie_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+@media screen and (max-width: 576px) {
+  .hobbie_cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.hobbie_card {
+  background-color: #ffffff;
+  flex: 1;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  border: 1px solid black;
+}
 body {
   background-color: #ffffff;
   font-family: "Raleway", sans-serif;
