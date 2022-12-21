@@ -1,0 +1,35 @@
+.experiencie{
+  background-color: $c-gray-medium;
+	padding-bottom: 1px;
+  .experiencie_title{}
+  .experience_container{
+   margin-bottom: 1rem;
+  }
+}
+
+.experience_card{
+  padding-bottom: 1rem;
+}
+
+.experience_card_header{}
+
+.experience_card_content{
+  
+}
+
+.experience_card_footer {
+ 
+
+  .experience_card_footer_btn {
+    
+  }
+  .experience_card_footer_btn--repository{
+  	background-color: $c-gray-medium;
+  	color: $c-blue;
+
+  }
+  .experience_card_footer_btn--demo{
+    color: $c-white;
+    background-color: $c-blue;
+  }
+}
