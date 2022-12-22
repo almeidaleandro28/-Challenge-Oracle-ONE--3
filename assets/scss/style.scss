@@ -8,11 +8,18 @@
 @import "hobbie";
 @import "education";
 @import "experience";
+@import "contact";
 
 body {
   background-color: $c-white;
 	font-family: $f-roleway;
   min-width: 360px;
+}
+
+// class all
+.m-small {
+  margin-bottom: 0.5rem; 
+  margin-top: 0.5rem;
 }
 
 h1,
@@ -53,7 +60,7 @@ img {
 }
 
 .btn {
-  color: $c-black;
+  color: $c-white;
   padding: 12px 16px;
   text-transform: uppercase;
   
@@ -68,3 +75,18 @@ img {
   }
 }
 
+// form
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+}
+
+.group_input {
+  display: flex;
+  flex-direction: column;
+  background-color: $c-white;
+}

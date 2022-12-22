@@ -253,10 +253,22 @@ table {
   background-color: #2A7AE4;
 }
 
+.contact {
+  background-color: #EAF2FD;
+}
+.contact_form_btn {
+  background-color: #2A7AE4;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Raleway", sans-serif;
   min-width: 360px;
+}
+
+.m-small {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 h1,
@@ -301,7 +313,7 @@ img {
 }
 
 .btn {
-  color: #000000;
+  color: #ffffff;
   padding: 12px 16px;
   text-transform: uppercase;
 }
@@ -315,6 +327,21 @@ img {
   .container {
     width: 95%;
   }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+}
+
+.group_input {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
