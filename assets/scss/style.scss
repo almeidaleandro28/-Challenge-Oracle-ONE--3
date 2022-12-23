@@ -9,6 +9,7 @@
 @import "education";
 @import "experience";
 @import "contact";
+@import "footer";
 
 body {
   background-color: $c-white;
@@ -20,6 +21,10 @@ body {
 .m-small {
   margin-bottom: 0.5rem; 
   margin-top: 0.5rem;
+}
+//text center
+.center{
+  text-align: center;
 }
 
 h1,

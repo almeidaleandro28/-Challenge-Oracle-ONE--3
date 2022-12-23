@@ -260,6 +260,10 @@ table {
   background-color: #2A7AE4;
 }
 
+.footer {
+  background-color: #ffffff;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Raleway", sans-serif;
@@ -269,6 +273,10 @@ body {
 .m-small {
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
+}
+
+.center {
+  text-align: center;
 }
 
 h1,
