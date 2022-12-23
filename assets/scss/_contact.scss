@@ -5,16 +5,37 @@
       display: flex;
       flex-direction: row;
     }
+    @include device( large-dekstop ){
+      display: flex;
+      flex-direction: row;
+    }
   }
 
 }
-
+// container img
 .container_img {
   @include device( phone ){
     display: none;
   }
   @include device( tablet ){
     display: none;
+  }
+  @include device( desktops ){
+    flex: 1;
+
+  }
+  @include device(large-dekstop){
+    flex: 1;
+  }
+}
+
+// container_form
+.container_form{
+  @include device( desktops) {
+    flex: 1;
+  }
+  @include device( large-dekstop){
+    flex: 1;
   }
 }
 

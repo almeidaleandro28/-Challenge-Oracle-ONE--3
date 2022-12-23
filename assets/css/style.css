@@ -262,6 +262,12 @@ table {
     flex-direction: row;
   }
 }
+@media screen and (min-width: 992px) {
+  .contact .contact_container {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 @media screen and (max-width: 576px) {
   .container_img {
@@ -271,6 +277,27 @@ table {
 @media screen and (min-width: 578px) and (max-width: 768px) {
   .container_img {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container_img {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container_img {
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container_form {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container_form {
+    flex: 1;
   }
 }
 
