@@ -1,7 +1,21 @@
 .contact{
   background-color: $c-blue-light;
-  .contact_container {}
+  .contact_container {
+    @include device( desktops){
+      display: flex;
+      flex-direction: row;
+    }
+  }
 
+}
+
+.container_img {
+  @include device( phone ){
+    display: none;
+  }
+  @include device( tablet ){
+    display: none;
+  }
 }
 
 .contact_header {}
