@@ -1,9 +1,22 @@
 .hero {
-  .hero_container {}
+  background-color: $c-gray-medium;
+  .hero_container {
+   display: grid;
+   grid-template-areas:
+                 "left   left    right"
+                  "left    left    right"
+                  "bottom  bottom  right";
+  @include device( phone ){
+    display: flex;
+    flex-direction: column;
+    }
+  }
+  
 }
 
 .hero_header {
   padding-bottom: 0.5rem;
+  grid-area: right;
   .hero_header_img {
     width: 368px;
     height: 368px;
@@ -22,22 +35,30 @@
 }
 
 .hero_content {
+  grid-area: left;
   padding-bottom: 1rem;
+  margin-top: 3rem;
+  @include device( phone ){
+    margin: 0;
+  }
   .hero_content_title {
 		font-weight: map-get($f-weight, "bold");
 		
 	}
   .hero_content_text {
 		font-weight: map-get($f-weight , "normal" );
-    padding-top: 0.5rem;
+    margin-top: 1rem;
 	}
 }
 
 .hero_footer {
   display: flex;
   flex-direction: row;
+  grid-area: bottom;
   justify-content: space-between;
+  margin-bottom: 3rem;
   .hero_footer_link {
     font-weight: map-get($f-weight, "medium" );
+    color: $c-gray-dark;
   }
 }
