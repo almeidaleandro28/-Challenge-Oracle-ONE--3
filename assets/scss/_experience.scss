@@ -1,24 +1,37 @@
 .experiencie{
   background-color: $c-gray-medium;
 	padding-bottom: 1px;
+
   .experiencie_title{}
+
   .experience_container{
    margin-bottom: 1rem;
+   display: flex;
+   justify-content: center;
   }
 }
 
 .experience_card{
   padding-bottom: 1rem;
+  width: 60%;
+  @include device( desktops ){
+    
+  }
+  
 }
 
-.experience_card_header{}
+.experience_card_header{
+  @include device( desktops ){
+    
+  }
+}
 
 .experience_card_content{
   
 }
 
 .experience_card_footer {
- 
+  
 
   .experience_card_footer_btn {
     

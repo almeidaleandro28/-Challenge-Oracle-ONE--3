@@ -67,11 +67,19 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .header_branch {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+.header_branch_logo {
+  padding-right: 1rem;
+  text-align: center;
+}
+
 .header_branch_name {
   font-size: 1rem;
 }
@@ -79,6 +87,7 @@ table {
 .header_nav_items {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 @media screen and (max-width: 576px) {
   .header_nav_items {
@@ -93,6 +102,10 @@ table {
 .header_nav_items .header_nav_item {
   padding-left: 0.5rem;
 }
+.header_nav_items .header_nav_link {
+  color: #464646;
+}
+
 .header_contact {
   font-weight: 700;
   font-size: 1rem;
@@ -238,12 +251,14 @@ table {
 }
 .experiencie .experience_container {
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .experience_card {
   padding-bottom: 1rem;
+  width: 60%;
 }
-
 .experience_card_footer .experience_card_footer_btn--repository {
   background-color: #F5F5F5;
   color: #2A7AE4;
