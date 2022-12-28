@@ -219,9 +219,11 @@ table {
   margin-left: 1rem;
   margin-bottom: 0.5rem;
   text-align: center;
-  border: 1px solid black;
 }
 
+.skill_card_header {
+  padding-top: 0.5rem;
+}
 .hobbie {
   background-color: #F5F5F5;
   padding-bottom: 1rem;
