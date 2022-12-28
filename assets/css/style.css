@@ -253,7 +253,9 @@ table {
   margin-left: 1rem;
   margin-bottom: 0.5rem;
   text-align: center;
-  border: 1px solid black;
+}
+.hobbie_card .hobbie_card_header {
+  padding-top: 0.5rem;
 }
 .education {
   background-color: #EAF2FD;
