@@ -4,7 +4,7 @@
     text-align: center;
   }
   .education_container {
-    display: flex;
+		display: flex;
     flex-direction: row;
     justify-content: space-between;
     @include device( phone ){
@@ -14,15 +14,23 @@
  }
 
  .education_card{
-  // flex: 1;
+  padding-bottom: 1rem;
 
  }
 
  .education_card_header {
-  .education_card_header_img {}
+  background-color: $c-white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+  .education_card_header_img {
+		width: 20%;
+	}
  }
 
  .education_card_footer {
+	background-color: $c-blue-light;
   .education_card_footer_title {
 
   }

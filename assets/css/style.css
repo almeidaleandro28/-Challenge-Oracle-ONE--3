@@ -274,6 +274,23 @@ table {
   }
 }
 
+.education_card {
+  padding-bottom: 1rem;
+}
+
+.education_card_header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.education_card_header .education_card_header_img {
+  width: 20%;
+}
+
+.education_card_footer {
+  background-color: #EAF2FD;
+}
 .experiencie {
   background-color: #F5F5F5;
   padding-bottom: 1px;
