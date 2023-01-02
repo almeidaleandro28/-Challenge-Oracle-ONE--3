@@ -291,27 +291,60 @@ table {
 .education_card_footer {
   background-color: #EAF2FD;
 }
-.experiencie {
+.experience {
   background-color: #F5F5F5;
   padding-bottom: 1px;
 }
-.experiencie .experience_container {
+.experience .experience_title {
+  text-align: center;
+}
+.experience .experience_container {
   margin-bottom: 1rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .experience_card {
+  display: flex;
   padding-bottom: 1rem;
+  position: relative;
+}
+@media screen and (max-width: 576px) {
+  .experience_card {
+    flex-direction: column;
+  }
+}
+
+.experience_card_header {
   width: 60%;
 }
-.experience_card_footer .experience_card_footer_btn--repository {
+@media screen and (max-width: 576px) {
+  .experience_card_header {
+    width: 100%;
+  }
+}
+
+.experience_card_content {
+  display: block;
+  padding-left: 1rem;
+}
+
+.education_card_btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience_btn_repo {
   background-color: #F5F5F5;
   color: #2A7AE4;
+  margin-top: 1rem;
 }
-.experience_card_footer .experience_card_footer_btn--demo {
+
+.experience_btn_demo {
   color: #ffffff;
   background-color: #2A7AE4;
+  margin-top: 1rem;
 }
 
 .contact {
@@ -396,19 +429,9 @@ h3 {
 h1 {
   font-size: 2.441rem;
 }
-@media screen and (max-width: 576px) {
-  h1 {
-    font-size: 1.953rem;
-  }
-}
 
 h2 {
   font-size: 1.953rem;
-}
-@media screen and (max-width: 576px) {
-  h2 {
-    font-size: 1.563rem;
-  }
 }
 
 h3 {
@@ -427,7 +450,6 @@ img {
 }
 
 .btn {
-  color: #ffffff;
   padding: 12px 16px;
   text-transform: uppercase;
 }

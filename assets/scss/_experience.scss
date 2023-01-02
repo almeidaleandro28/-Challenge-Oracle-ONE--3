@@ -1,48 +1,59 @@
-.experiencie{
+.experience {
   background-color: $c-gray-medium;
 	padding-bottom: 1px;
 
-  .experiencie_title{}
+  .experience_title{
+    text-align: center;
+  }
 
   .experience_container{
-   margin-bottom: 1rem;
-   display: flex;
-   justify-content: center;
+   	margin-bottom: 1rem;
+   	display: flex;
+	 	flex-direction: column;
+  	justify-content: space-between;
+   
   }
 }
 
 .experience_card{
-  padding-bottom: 1rem;
-  width: 60%;
-  @include device( desktops ){
+	display: flex;
+	padding-bottom: 1rem;
+  position: relative;
+	
+  @include device( phone ){
+    flex-direction: column;
     
   }
   
 }
 
 .experience_card_header{
-  @include device( desktops ){
-    
+	width: 60%;
+  @include device( phone){
+    width: 100%;
   }
 }
 
 .experience_card_content{
-  
+  display: block;
+	padding-left: 1rem;
+
 }
 
-.experience_card_footer {
-  
-
-  .experience_card_footer_btn {
-    
-  }
-  .experience_card_footer_btn--repository{
-  	background-color: $c-gray-medium;
-  	color: $c-blue;
-
-  }
-  .experience_card_footer_btn--demo{
-    color: $c-white;
-    background-color: $c-blue;
-  }
+.education_card_btns{
+  display: flex;
+  flex-direction: row;
 }
+
+.experience_btn_repo {
+  background-color: $c-gray-medium;
+  color: $c-blue;
+	margin-top: 1rem;
+}
+
+.experience_btn_demo{
+  color: $c-white;
+  background-color: $c-blue;
+	margin-top: 1rem;
+}
+

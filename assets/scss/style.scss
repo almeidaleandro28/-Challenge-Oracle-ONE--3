@@ -37,16 +37,16 @@ h3 {
 
 h1 {
   font-size: map-get($f-size, "big");
-  @include device( phone ){
-  font-size: map-get($f-size, "medium");
-  }
+  // @include device( phone ){
+  // font-size: map-get($f-size, "medium");
+  // }
 }
 
 h2 {
   font-size: map-get($f-size, "medium");
-  @include device( phone ){
-  font-size: map-get($f-size, "small");
-  }
+  // @include device( phone ){
+  // font-size: map-get($f-size, "small");
+  // }
 }
 
 h3 {
@@ -65,7 +65,7 @@ img {
 }
 
 .btn {
-  color: $c-white;
+  // color: $c-white;
   padding: 12px 16px;
   text-transform: uppercase;
   
