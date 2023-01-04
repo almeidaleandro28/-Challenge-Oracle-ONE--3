@@ -12,6 +12,7 @@
 	 	flex-direction: column;
   	justify-content: space-between;
    
+   
   }
 }
 
@@ -19,7 +20,6 @@
 	display: flex;
 	padding-bottom: 1rem;
   position: relative;
-	
   @include device( phone ){
     flex-direction: column;
     
@@ -47,13 +47,24 @@
 
 .experience_btn_repo {
   background-color: $c-gray-medium;
+  border: 1px solid $c-blue;
   color: $c-blue;
 	margin-top: 1rem;
+  margin-right: 0.5rem;
+  transition: border 1s;
+  &:hover {
+   border: 1px solid #ffa500;
+  }
 }
+
 
 .experience_btn_demo{
   color: $c-white;
   background-color: $c-blue;
 	margin-top: 1rem;
+  transition: border 1s;
+  &:hover {
+   border: 1px solid $c-black;
+  }
 }
 

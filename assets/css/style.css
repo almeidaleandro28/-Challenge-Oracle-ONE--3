@@ -337,14 +337,24 @@ table {
 
 .experience_btn_repo {
   background-color: #F5F5F5;
+  border: 1px solid #2A7AE4;
   color: #2A7AE4;
   margin-top: 1rem;
+  margin-right: 0.5rem;
+  transition: border 1s;
+}
+.experience_btn_repo:hover {
+  border: 1px solid #ffa500;
 }
 
 .experience_btn_demo {
   color: #ffffff;
   background-color: #2A7AE4;
   margin-top: 1rem;
+  transition: border 1s;
+}
+.experience_btn_demo:hover {
+  border: 1px solid #000000;
 }
 
 .contact {
