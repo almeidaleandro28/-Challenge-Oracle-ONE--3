@@ -224,6 +224,10 @@ table {
 .skill_card_header {
   padding-top: 0.5rem;
 }
+.skill_card_header .skill_card_header_img {
+  color: #2A7AE4;
+}
+
 .hobbie {
   background-color: #F5F5F5;
   padding-bottom: 1rem;
@@ -457,6 +461,10 @@ a {
 img {
   height: auto;
   width: 100%;
+}
+
+.bi {
+  color: #2A7AE4;
 }
 
 .btn {

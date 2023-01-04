@@ -35,7 +35,9 @@
 
 .skill_card_header {
   padding-top: 0.5rem;
-  .skill_card_header_img{}
+  .skill_card_header_img{
+    color: $c-blue;
+  }
 }
 
 .skill_card_footer{

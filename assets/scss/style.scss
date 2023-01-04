@@ -58,10 +58,14 @@ a {
   text-decoration: none;
   font-family: $f-roboto
 }
-
+// imgs
 img {
   height: auto;
   width: 100%;
+}
+// icons
+.bi {
+ color: $c-blue; 
 }
 
 .btn {
