@@ -1,9 +1,9 @@
+const inputs = document.querySelectorAll("input");
 const nameClient = document.querySelector(".contact_form_name");
 const email = document.querySelector(".contact_form_email");
 const bt = document.querySelector(".contact_form_btn");
 const textArea = document.querySelector(".contact_form_message");
 const subject = document.querySelector(".contact_form_subject");
-
 
 
 const validatioName = ( name ) => {
@@ -43,13 +43,37 @@ const validatioSunject = ( subject ) => {
 const validatioTextArea = ( text ) => {
   try {
     if ( text == '') throw "textarea is empty!";
-    if ( text.length > 300 ) throw "textarea maximum 50 caracters" 
+    if ( text.length > 300 ) throw "textarea maximum 50 caracters";
   } catch ( error ) {
     alert( "Error msg: " + error)
   } finally {
     return text;
   }
 }
+
+// check inputs
+const checkInputs = ( inputs ) => {
+  let filled ;
+
+	inputs.forEach(element => {
+	 element.value === ""  ? filled = true : filled = false;
+	});
+
+  return filled;
+	
+}
+
+
+// disabled button
+inputs.forEach( ( input ) => {
+	input.addEventListener( "keyup", ( ) => {
+		checkInputs( inputs ) ? bt.disabled = true :  bt.disabled = false; 
+	})
+});
+
+
+
+
 
 bt.addEventListener( "click", ( event ) => {
   event.preventDefault();
