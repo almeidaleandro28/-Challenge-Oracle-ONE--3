@@ -12,6 +12,12 @@
   }
 }
 
+// animations
+@keyframes card {
+  0% { top: 8px;}
+  50% { bottom: 8px;}
+}
+
 .skill_cards {
   display: flex;
   flex-direction: row;
@@ -28,7 +34,13 @@
     flex: 1 ;
     margin-left: 1rem;
     margin-bottom: .5rem;
+    position: relative;
     text-align: center;
+
+    &:hover {
+      animation-name: card;
+      animation-duration: 4s;
+    }
     
   }
 }
@@ -43,3 +55,4 @@
 .skill_card_footer{
   .skill_card_footer_title {}
 }
+

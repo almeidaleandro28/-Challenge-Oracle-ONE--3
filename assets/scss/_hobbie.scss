@@ -9,6 +9,12 @@
   .hobbie_title {}
 }
 
+@keyframes cards {
+  0% { top: 8px;}
+  50% { bottom: 8px;}
+  
+}
+
 .hobbie_cards{
   display: flex;
   flex-direction: row;
@@ -28,6 +34,11 @@
     margin-left: 1rem;
     margin-bottom: .5rem;
     text-align: center;
+    position: relative;
+    &:hover {
+      animation-name: cards;
+      animation-duration: 4s;
+    }
    
   .hobbie_card_header {
     padding-top: 0.5rem;
