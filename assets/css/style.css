@@ -102,6 +102,10 @@ table {
 .header_nav_items .header_nav_item {
   padding-left: 0.5rem;
 }
+.header_nav_items .header_nav_item:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
 .header_nav_items .header_nav_link {
   color: #464646;
 }

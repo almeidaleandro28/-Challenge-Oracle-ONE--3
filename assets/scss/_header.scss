@@ -51,9 +51,11 @@
 	}
 	.header_nav_item {
 		padding-left: 0.5rem;
-		@include device( phone ){
-			
+		&:hover {
+			background-color: $c-white;
+			color: $c-black;
 		}
+
 	}
 	.header_nav_link {
 		color: $c-gray-dark;
