@@ -18,6 +18,10 @@
   50% { bottom: 8px;}
 }
 
+@keyframes card-mobile {
+  
+}
+
 .skill_cards {
   display: flex;
   flex-direction: row;
@@ -36,12 +40,10 @@
     margin-bottom: .5rem;
     position: relative;
     text-align: center;
-
     &:hover {
       animation-name: card;
       animation-duration: 4s;
     }
-    
   }
 }
 

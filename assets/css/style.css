@@ -208,6 +208,7 @@ table {
     bottom: 8px;
   }
 }
+@keyframes card-mobile {}
 .skill_cards {
   display: flex;
   flex-direction: row;
